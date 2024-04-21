@@ -17,5 +17,6 @@
             "${workspaceFolder}/src/test/java",
             "${workspaceFolder}/src/test/resources" // Add this line
         ]
-    }
+    },
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
