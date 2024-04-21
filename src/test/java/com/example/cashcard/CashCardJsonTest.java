@@ -1,11 +1,14 @@
 package com.example.cashcard;
 
+
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.json.JsonTest;
 import org.springframework.boot.test.json.JacksonTester;
-import static org.assertj.core.api.Assertions.assertThat;
+
 import java.io.IOException;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 @JsonTest
 class CashCardJsonTest {
@@ -28,8 +31,8 @@ class CashCardJsonTest {
     void cashCardDeserializationTest() throws IOException {
         String expected = """
                 {
-                    "id":99,
-                    "amount":123.45
+                    "id": 99,
+                    "amount": 123.45
                 }
                 """;
         assertThat(json.parse(expected)).isEqualTo(new CashCard(99L, 123.45));
