@@ -1,22 +1,23 @@
 {
-    "java.test.config": {
-        "name": "myConfiguration",
-        "workingDirectory": "${workspaceFolder}",
-        "args": [],
-        "vmargs": [],
-        "classPaths": [
-            "${workspaceFolder}/build/classes",
-            "${workspaceFolder}/build/resources",
-            "${workspaceFolder}/src/test/resources" // Add this line
-        ],
-        "modulePaths": [],
-        "env": {},
-        "preLaunchTask": "",
-        "sourcePaths": [
-            "${workspaceFolder}/src/main/java",
-            "${workspaceFolder}/src/test/java",
-            "${workspaceFolder}/src/test/resources" // Add this line
-        ]
-    },
-    "java.configuration.updateBuildConfiguration": "interactive"
+  "java.test.config": {
+    "name": "myConfiguration",
+    "workingDirectory": "${workspaceFolder}",
+    "args": [],
+    "vmargs": [],
+    "classPaths": [
+      "${workspaceFolder}/build/classes",
+      "${workspaceFolder}/build/resources",
+      "${workspaceFolder}/src/test/resources" // Add this line
+    ],
+    "modulePaths": [],
+    "env": {},
+    "preLaunchTask": "",
+    "sourcePaths": [
+      "${workspaceFolder}/src/main/java",
+      "${workspaceFolder}/src/test/java",
+      "${workspaceFolder}/src/test/resources" // Add this line
+    ]
+  },
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "java.compile.nullAnalysis.mode": "automatic"
 }
