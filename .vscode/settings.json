@@ -18,6 +18,7 @@
       "${workspaceFolder}/src/test/resources" // Add this line
     ]
   },
-  "java.configuration.updateBuildConfiguration": "interactive",
-  "java.compile.nullAnalysis.mode": "automatic"
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.format.settings.url": ".vscode/eclipse-java-google-style.xml"
 }
